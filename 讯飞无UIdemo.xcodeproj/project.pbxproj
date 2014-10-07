@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3747986518F26C3100CB48D9 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3747986418F26C3100CB48D9 /* iflyMSC.framework */; };
 		375125F9186D08AE00297A79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375125F8186D08AE00297A79 /* Foundation.framework */; };
 		375125FB186D08AE00297A79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375125FA186D08AE00297A79 /* CoreGraphics.framework */; };
 		375125FD186D08AE00297A79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375125FC186D08AE00297A79 /* UIKit.framework */; };
@@ -19,6 +20,14 @@
 		37512614186D08AE00297A79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375125FC186D08AE00297A79 /* UIKit.framework */; };
 		3751261C186D08AE00297A79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3751261A186D08AE00297A79 /* InfoPlist.strings */; };
 		3751261E186D08AE00297A79 /* ___UIdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751261D186D08AE00297A79 /* ___UIdemoTests.m */; };
+		37512629186D08BB00297A79 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 37512628186D08BB00297A79 /* ViewController1.m */; };
+		3751262D186D090300297A79 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3751262C186D090300297A79 /* AdSupport.framework */; };
+		3751262F186D090800297A79 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3751262E186D090800297A79 /* AddressBook.framework */; };
+		37512631186D090E00297A79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37512630186D090E00297A79 /* QuartzCore.framework */; };
+		37512633186D091500297A79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37512632186D091500297A79 /* SystemConfiguration.framework */; };
+		37512635186D091D00297A79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37512634186D091D00297A79 /* AudioToolbox.framework */; };
+		37512637186D092400297A79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 37512636186D092400297A79 /* libz.dylib */; };
+		37F571BC1901803C0097E314 /* ZCNoneiFLYTEK.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F571BB1901803C0097E314 /* ZCNoneiFLYTEK.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3747986418F26C3100CB48D9 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		375125F5186D08AE00297A79 /* 讯飞无UIdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "讯飞无UIdemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		375125F8186D08AE00297A79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		375125FA186D08AE00297A79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +58,16 @@
 		37512619186D08AE00297A79 /* 讯飞无UIdemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "讯飞无UIdemoTests-Info.plist"; sourceTree = "<group>"; };
 		3751261B186D08AE00297A79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3751261D186D08AE00297A79 /* ___UIdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UIdemoTests.m"; sourceTree = "<group>"; };
+		37512627186D08BB00297A79 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		37512628186D08BB00297A79 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		3751262C186D090300297A79 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3751262E186D090800297A79 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		37512630186D090E00297A79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		37512632186D091500297A79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		37512634186D091D00297A79 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		37512636186D092400297A79 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		37F571BA1901803C0097E314 /* ZCNoneiFLYTEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNoneiFLYTEK.h; sourceTree = "<group>"; };
+		37F571BB1901803C0097E314 /* ZCNoneiFLYTEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNoneiFLYTEK.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +75,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37512637186D092400297A79 /* libz.dylib in Frameworks */,
+				37512635186D091D00297A79 /* AudioToolbox.framework in Frameworks */,
+				37512633186D091500297A79 /* SystemConfiguration.framework in Frameworks */,
+				37512631186D090E00297A79 /* QuartzCore.framework in Frameworks */,
+				3751262F186D090800297A79 /* AddressBook.framework in Frameworks */,
+				3751262D186D090300297A79 /* AdSupport.framework in Frameworks */,
 				375125FB186D08AE00297A79 /* CoreGraphics.framework in Frameworks */,
 				375125FD186D08AE00297A79 /* UIKit.framework in Frameworks */,
+				3747986518F26C3100CB48D9 /* iflyMSC.framework in Frameworks */,
 				375125F9186D08AE00297A79 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +123,12 @@
 		375125F7186D08AE00297A79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37512636186D092400297A79 /* libz.dylib */,
+				37512634186D091D00297A79 /* AudioToolbox.framework */,
+				37512632186D091500297A79 /* SystemConfiguration.framework */,
+				37512630186D090E00297A79 /* QuartzCore.framework */,
+				3751262E186D090800297A79 /* AddressBook.framework */,
+				3751262C186D090300297A79 /* AdSupport.framework */,
 				375125F8186D08AE00297A79 /* Foundation.framework */,
 				375125FA186D08AE00297A79 /* CoreGraphics.framework */,
 				375125FC186D08AE00297A79 /* UIKit.framework */,
@@ -109,6 +142,11 @@
 			children = (
 				37512607186D08AE00297A79 /* AppDelegate.h */,
 				37512608186D08AE00297A79 /* AppDelegate.m */,
+				37512627186D08BB00297A79 /* ViewController1.h */,
+				37512628186D08BB00297A79 /* ViewController1.m */,
+				3747986418F26C3100CB48D9 /* iflyMSC.framework */,
+				37F571BA1901803C0097E314 /* ZCNoneiFLYTEK.h */,
+				37F571BB1901803C0097E314 /* ZCNoneiFLYTEK.m */,
 				3751260A186D08AE00297A79 /* Images.xcassets */,
 				375125FF186D08AE00297A79 /* Supporting Files */,
 			);
@@ -241,6 +279,8 @@
 			files = (
 				37512609186D08AE00297A79 /* AppDelegate.m in Sources */,
 				37512605186D08AE00297A79 /* main.m in Sources */,
+				37512629186D08BB00297A79 /* ViewController1.m in Sources */,
+				37F571BC1901803C0097E314 /* ZCNoneiFLYTEK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,10 +401,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/讯飞无UIdemo",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "讯飞无UIdemo/讯飞无UIdemo-Prefix.pch";
 				INFOPLIST_FILE = "讯飞无UIdemo/讯飞无UIdemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,10 +420,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/讯飞无UIdemo",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "讯飞无UIdemo/讯飞无UIdemo-Prefix.pch";
 				INFOPLIST_FILE = "讯飞无UIdemo/讯飞无UIdemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -443,6 +495,7 @@
 				37512623186D08AF00297A79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37512624186D08AF00297A79 /* Build configuration list for PBXNativeTarget "讯飞无UIdemoTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +504,7 @@
 				37512626186D08AF00297A79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
